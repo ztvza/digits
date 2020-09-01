@@ -1,0 +1,37 @@
+.button{
+	width: 113px;
+	height: 40px;
+	background-color: #2F80ED;
+	border: rgba(100, 226, 205, 0.5);
+	border-radius: 100px;
+	color: white;
+	margin-left: 64px;
+}
+
+.button.-title {
+	margin-left: 0px;
+	width: 232px;
+	height: 50px;
+	margin-bottom: 153px;
+}
+
+.button.-empty {
+	background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #3751FF;
+	border: 2px solid #3751FF;
+	color: #3751FF;
+	width: 170px;
+	margin-left: 0px;
+	margin-top: 36px;
+}
+
+@media screen and (max-width: 767px) {
+	.button {
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 650px){
+	.button {
+		margin-left: 10px;
+	}
+}

@@ -1,0 +1,13 @@
+body, h1, h2, h3, h4, h5, h6, li, ol, u, p, a {
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	color: #1E266D;
+}
+
+a {
+	text-decoration:none; 
+}
+
+*{
+	box-sizing: border-box;
+}
